@@ -23,19 +23,19 @@ This project automates the deployment, configuration, and monitoring of a web se
 ### Step 1: Deploy Web Server VMs
 ```powershell
 ./azure_setup.ps1
-
+   ```
 ### Step 2: Configure IIS
 ```powershell
 ./iis_setup.ps1
-
+   ```
 ### Step 3: Set Up Load Balancer
 ```powershell
 ./load_balancer_setup.ps1
-
+   ```
 ### Step 4: Configure Monitoring and Alerting
 ```powershell
 ./monitoring_setup.ps1
-
+   ```
 ### Requirements
 * PowerShell
 * Azure subscription
